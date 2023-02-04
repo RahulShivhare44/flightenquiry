@@ -1,0 +1,145 @@
+<style>
+.maincontainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #30336b;
+
+}    
+.root{
+    width: 700px;
+    height: 400px;
+    background-color: #dff9fb;
+    border-radius: 20px;
+    padding: 10px;
+}
+.head{
+    color: #4834d4;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Oxygen;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+</style>
+
+<html>
+<head>
+
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:wght@200&family=Supermercado+One&display=swap" rel="stylesheet">
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
+></script>
+</head>
+
+<body>
+   <div class="maincontainer">
+       <div class="root">
+           <div class="head">
+               Flight Enquiry System
+            </div>
+            
+            <div class="row" style="margin-top: 15px;">
+             <div class="col-12"> 
+            <div class="form-outline">
+              <input type="text" name="flightid" class="form-control form-control-lg" />
+              <label class="form-label">Flight Id</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 15px;">
+          <div class="col-12">  
+         <div class="form-outline">
+           <input type="text" name="companyname" class="form-control form-control-lg" />
+           <label class="form-label">Company Name</label>
+         </div>
+       </div>
+     </div>
+
+     <div class="row" style="margin-top: 15px;">
+      <div class="col-6"> 
+     <div class="form-outline">
+       <input type="text" name="sourcestate" class="form-control form-control-lg" />
+       <label class="form-label">Source State</label>
+     </div>
+
+   </div>
+   <div class="col-6"> 
+    <div class="form-outline">
+      <input type="text" name="sourcename" class="form-control form-control-lg" />
+      <label class="form-label">Source Name</label>
+    </div>
+  </div>
+ </div>
+
+ <div class="row" style="margin-top: 15px;">
+  <div class="col-6"> 
+ <div class="form-outline">
+   <input type="text" name="destinationstate" class="form-control form-control-lg" />
+   <label class="form-label">Destination State</label>
+ </div>
+
+</div>
+<div class="col-6"> 
+<div class="form-outline">
+  <input type="text" name="destinationcity" class="form-control form-control-lg" />
+  <label class="form-label">Destination City</label>
+</div>
+</div>
+</div>
+
+<div class="row" style="margin-top: 15px;">
+  <div class="col-6"> 
+ <div class="form-outline">
+  <input type="text" name="status" class="form-control form-control-lg" />
+  <label class="form-label">Flight Status</label>
+  </div>
+ </div>
+
+ <div class="col-6">
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox"  value="Economy" name="fclass" />
+    <label class="form-check-label" for="inlineCheckbox1">Economy</label>
+  </div>
+  
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" name="fclass" value="Business" />
+    <label class="form-check-label" for="inlineCheckbox2">Business</label>
+  </div>
+  </div>
+
+</div>
+
+
+        </div>
+    </div> 
+        
+
+
+</body>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
+></script>
+</html>
